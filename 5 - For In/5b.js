@@ -1,6 +1,6 @@
 let pessoa = {nome: "Ana", idade: 25, cidade: "Curitiba"};
 
 
-for(let chave in pessoa){
-    console.log(pessoa[chave]);
+for(let valor_info in pessoa){
+    console.log(pessoa[valor_info]);
 }

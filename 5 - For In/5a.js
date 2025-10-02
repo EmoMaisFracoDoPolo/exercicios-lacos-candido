@@ -1,5 +1,5 @@
 let pessoa = {nome: "Ana", idade: 25, cidade: "Curitiba"};
 
-for(let chave in pessoa){
-    console.log(chave);
+for(let tipo_info in pessoa){
+    console.log(tipo_info);
 }
